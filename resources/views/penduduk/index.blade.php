@@ -48,7 +48,8 @@
                                 <div class="dropdown-menu" style="width: 250px;">
                                     <a class="dropdown-item has-icon" data-toggle="modal" data-target="#cetakData"
                                         href="#"><i class="fa fa-print"></i> Cetak</a>
-                                    <a class="dropdown-item has-icon" href="#"><i class="fa fa-download"></i>
+                                    <a class="dropdown-item has-icon" href="#" data-toggle="modal"
+                                        data-target="#unduhData"><i class="fa fa-download"></i>
                                         Unduh</a>
                                     <a class="dropdown-item has-icon" href="#" data-toggle="modal"
                                         data-target="#pencarianSpesifik"><i class="fa fa-search"></i> Pencarian
@@ -232,7 +233,8 @@
                                     </td>
                                     <td><img src="	http://demosid.opendesa.id/assets/images/pengguna/kuser.png"
                                             class="img-fluid" alt=""></td>
-                                    <td>5201142005716996</td>
+                                    <td><a href="" style="color: #1fa3d4;"
+                                            class="font-weight-light">5201142005716996</a></td>
                                     <td></td>
                                     <td style="color: #343a40">KHAFID</td>
                                     <td></td>
@@ -254,11 +256,11 @@
                                     <td class="p-0 text-center">
                                         <div class="custom-checkbox custom-control">
                                             <input type="checkbox" data-checkboxes="mygroup" class="custom-control-input"
-                                                id="checkbox-2">
-                                            <label for="checkbox-2" class="custom-control-label">&nbsp;</label>
+                                                id="checkbox-1">
+                                            <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
                                         </div>
                                     </td>
-                                    <td>2</td>
+                                    <td>1</td>
                                     <td>
                                         <div class="dropdown d-inline">
                                             <button class="btn btn-sm btn-primary dropdown-toggle" type="button"
@@ -267,7 +269,7 @@
                                                 Pilih Aksi
                                             </button>
                                             <div class="dropdown-menu" style="width: 250px;">
-                                                <a class="dropdown-item has-icon" href="#"><i
+                                                <a class="dropdown-item has-icon" href="penduduk/detail"><i
                                                         class="fa fa-list-ol"></i> Lihat Detail Biodata Penduduk</a>
                                                 <a class="dropdown-item has-icon" href="/penduduk/form/1"><i
                                                         class="fa fa-edit"></i> Ubah Biodata Penduduk</a>
@@ -287,7 +289,8 @@
                                     </td>
                                     <td><img src="	http://demosid.opendesa.id/assets/images/pengguna/kuser.png"
                                             class="img-fluid" alt=""></td>
-                                    <td>5201142005716996</td>
+                                    <td><a href="" style="color: #1fa3d4;"
+                                            class="font-weight-light">5201142005716996</a></td>
                                     <td></td>
                                     <td style="color: #343a40">KHAFID</td>
                                     <td></td>
@@ -309,11 +312,11 @@
                                     <td class="p-0 text-center">
                                         <div class="custom-checkbox custom-control">
                                             <input type="checkbox" data-checkboxes="mygroup" class="custom-control-input"
-                                                id="checkbox-3">
-                                            <label for="checkbox-3" class="custom-control-label">&nbsp;</label>
+                                                id="checkbox-1">
+                                            <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
                                         </div>
                                     </td>
-                                    <td>3</td>
+                                    <td>1</td>
                                     <td>
                                         <div class="dropdown d-inline">
                                             <button class="btn btn-sm btn-primary dropdown-toggle" type="button"
@@ -322,9 +325,9 @@
                                                 Pilih Aksi
                                             </button>
                                             <div class="dropdown-menu" style="width: 250px;">
-                                                <a class="dropdown-item has-icon" href="#"><i
+                                                <a class="dropdown-item has-icon" href="penduduk/detail"><i
                                                         class="fa fa-list-ol"></i> Lihat Detail Biodata Penduduk</a>
-                                                <a class="dropdown-item has-icon" href="#"><i
+                                                <a class="dropdown-item has-icon" href="/penduduk/form/1"><i
                                                         class="fa fa-edit"></i> Ubah Biodata Penduduk</a>
                                                 <a class="dropdown-item has-icon" href="#"><i
                                                         class="fa fa-map-marker"></i> Lihat Lokasi Tempat Tinggal</a>
@@ -342,7 +345,8 @@
                                     </td>
                                     <td><img src="	http://demosid.opendesa.id/assets/images/pengguna/kuser.png"
                                             class="img-fluid" alt=""></td>
-                                    <td>5201142005716996</td>
+                                    <td><a href="" style="color: #1fa3d4;"
+                                            class="font-weight-light">5201142005716996</a></td>
                                     <td></td>
                                     <td style="color: #343a40">KHAFID</td>
                                     <td></td>
@@ -364,11 +368,11 @@
                                     <td class="p-0 text-center">
                                         <div class="custom-checkbox custom-control">
                                             <input type="checkbox" data-checkboxes="mygroup" class="custom-control-input"
-                                                id="checkbox-4">
-                                            <label for="checkbox-4" class="custom-control-label">&nbsp;</label>
+                                                id="checkbox-1">
+                                            <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
                                         </div>
                                     </td>
-                                    <td>4</td>
+                                    <td>1</td>
                                     <td>
                                         <div class="dropdown d-inline">
                                             <button class="btn btn-sm btn-primary dropdown-toggle" type="button"
@@ -377,9 +381,9 @@
                                                 Pilih Aksi
                                             </button>
                                             <div class="dropdown-menu" style="width: 250px;">
-                                                <a class="dropdown-item has-icon" href="#"><i
+                                                <a class="dropdown-item has-icon" href="penduduk/detail"><i
                                                         class="fa fa-list-ol"></i> Lihat Detail Biodata Penduduk</a>
-                                                <a class="dropdown-item has-icon" href="#"><i
+                                                <a class="dropdown-item has-icon" href="/penduduk/form/1"><i
                                                         class="fa fa-edit"></i> Ubah Biodata Penduduk</a>
                                                 <a class="dropdown-item has-icon" href="#"><i
                                                         class="fa fa-map-marker"></i> Lihat Lokasi Tempat Tinggal</a>
@@ -397,7 +401,8 @@
                                     </td>
                                     <td><img src="	http://demosid.opendesa.id/assets/images/pengguna/kuser.png"
                                             class="img-fluid" alt=""></td>
-                                    <td>5201142005716996</td>
+                                    <td><a href="" style="color: #1fa3d4;"
+                                            class="font-weight-light">5201142005716996</a></td>
                                     <td></td>
                                     <td style="color: #343a40">KHAFID</td>
                                     <td></td>
@@ -451,27 +456,29 @@
     </div>
 
     <div class="modal fade" tabindex="-1" role="dialog" id="cetakData">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog modal-md">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title font-weight-light" style="color: rgb(86, 86, 86);"><i
-                            class="fas fa-print"></i> Cetak Data</h5>
+                    <h6 class="modal-title font-weight-bold text-dark"><i class="fas fa-print"></i> Cetak Data</h6>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <div class="card card-primary">
-                        <div class="card-header">
-                            <h4>Centang kotak berikut apabila NIK/No.KK ingin disensor</h4>
-                        </div>
                         <div class="card-body">
-                            <p style="font-weight:bold;"><input type="checkbox"> Sensor NIK/No.KK</p>
+                            <code>Centang kotak berikut apabila NIK/No.KK ingin disensor</code>
+                            <div class="custom-control custom-checkbox mt-3">
+                                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                <label class="custom-control-label text-dark font-weight-600" for="customCheck1">Sensor
+                                    NIK / No. KK</label>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer bg-whitesmoke br">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fas fa-close"></i>
+                        Tutup</button>
                     <a type="button" href="/penduduk/cetak" class="btn btn-info"><i class="fas fa-check"></i> Cetak</a>
                 </div>
             </div>
@@ -492,13 +499,15 @@
                 </div>
                 <div class="modal-body">
                     <div class="card card-primary">
-                        <div class="form-group mt-5">
-                            <label class="font-weight-bold" for="">Program Bantuan</label>
-                            <select name="" id="" class="form-control select2 col-md-6 col-lg-6">
-                                <option value="">Penduduk Penerima Bantuan</option>
-                                <option value="">Penduduk Bukan Penerima Bantuan</option>
-                                <option value="">JAMKESMAS</option>
-                            </select>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label class="font-weight-bold" for="">Program Bantuan</label>
+                                <select name="" id="" class="form-control select2 col-md-6 col-lg-6">
+                                    <option value="">Penduduk Penerima Bantuan</option>
+                                    <option value="">Penduduk Bukan Penerima Bantuan</option>
+                                    <option value="">JAMKESMAS</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -532,7 +541,8 @@
                     </div>
                 </div>
                 <div class="modal-footer bg-whitesmoke br">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fas fa-close"></i>
+                        Tutup</button>
                     <a type="button" href="/penduduk/cetak" class="btn btn-info"><i class="fas fa-check"></i>
                         Simpan</a>
                 </div>
@@ -687,7 +697,8 @@
                             </div>
                         </div>
                         <div class="modal-footer justify-content-between">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fas fa-close"></i> Batal</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal"><i
+                                    class="fas fa-close"></i> Batal</button>
                             <a type="button" href="/penduduk/cetak" class="btn btn-info"><i class="fas fa-check"></i>
                                 Simpan</a>
                         </div>
@@ -695,7 +706,42 @@
                 </div>
             </div>
         </div>
+    </div>
 
+        <div class="modal fade" tabindex="-1" role="dialog" id="unduhData">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title font-weight-bold" style="color: rgb(86, 86, 86);"><i
+                                class="fas fa-print"></i>
+                            Unduh Data</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card card-primary">
+                            <div class="card-body">
+                                <code>Centang kotak berikut apabila NIK/No.KK ingin disensor</code>
+                                <div class="custom-control custom-checkbox mt-3">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label text-dark font-weight-600"
+                                        for="customCheck1">Sensor
+                                        NIK / No. KK</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer bg-whitesmoke br">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fas fa-close"></i>
+                            Tutup</button>
+                        <button type="button" onclick="alert('ini untuk download data keluarga')"
+                            class="btn btn-info"><i class="fas fa-check"></i> Cetak</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
         <div class="modal fade" tabindex="-1" role="dialog" id="ubahStatusDasar">
             <div class="modal-dialog modal-lg">

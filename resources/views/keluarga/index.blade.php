@@ -234,12 +234,12 @@
                                                     <td><img src="	http://demosid.opendesa.id/assets/images/pengguna/kuser.png"
                                                             class="img-fluid" alt=""></td>
                                                     <td><a style="color: #1fa3d4;"
-                                                            href="/keluarga/kartu_keluarga">0720319200800004</a></td>
+                                                          class="font-weight-light"  href="/keluarga/kartu_keluarga">0720319200800004</a></td>
                                                     <td>MISLAN</td>
                                                     <td><a style="color: #1fa3d4;"
-                                                            href="/penduduk/detail">5201143105121724</a></td>
+                                                            href="/penduduk/detail"  class="font-weight-light">5201143105121724</a></td>
                                                     <td>-</td>
-                                                    <td><a style="color: #1fa3d4;" href="/keluarga/anggota">4</a></td>
+                                                    <td><a style="color: #1fa3d4;" href="/keluarga/anggota" class="font-weight-light">4</a></td>
                                                     <td>LAKI-LAKI</td>
                                                     <td>-</td>
                                                     <td>KRAJAN</td>
@@ -290,12 +290,12 @@
                                                     <td><img src="	http://demosid.opendesa.id/assets/images/pengguna/kuser.png"
                                                             class="img-fluid" alt=""></td>
                                                     <td><a style="color: #1fa3d4;"
-                                                            href="/keluarga/kartu_keluarga">0720319200800004</a></td>
+                                                          class="font-weight-light"  href="/keluarga/kartu_keluarga">0720319200800004</a></td>
                                                     <td>MISLAN</td>
                                                     <td><a style="color: #1fa3d4;"
-                                                            href="/penduduk/detail">5201143105121724</a></td>
+                                                            href="/penduduk/detail"  class="font-weight-light">5201143105121724</a></td>
                                                     <td>-</td>
-                                                    <td><a style="color: #1fa3d4;" href="/keluarga/anggota">4</a></td>
+                                                    <td><a style="color: #1fa3d4;" href="/keluarga/anggota" class="font-weight-light">4</a></td>
                                                     <td>LAKI-LAKI</td>
                                                     <td>-</td>
                                                     <td>KRAJAN</td>
@@ -346,12 +346,12 @@
                                                     <td><img src="	http://demosid.opendesa.id/assets/images/pengguna/kuser.png"
                                                             class="img-fluid" alt=""></td>
                                                     <td><a style="color: #1fa3d4;"
-                                                            href="/keluarga/kartu_keluarga">0720319200800004</a></td>
+                                                          class="font-weight-light"  href="/keluarga/kartu_keluarga">0720319200800004</a></td>
                                                     <td>MISLAN</td>
                                                     <td><a style="color: #1fa3d4;"
-                                                            href="/penduduk/detail">5201143105121724</a></td>
+                                                            href="/penduduk/detail"  class="font-weight-light">5201143105121724</a></td>
                                                     <td>-</td>
-                                                    <td><a style="color: #1fa3d4;" href="/keluarga/anggota">4</a></td>
+                                                    <td><a style="color: #1fa3d4;" href="/keluarga/anggota" class="font-weight-light">4</a></td>
                                                     <td>LAKI-LAKI</td>
                                                     <td>-</td>
                                                     <td>KRAJAN</td>
@@ -402,12 +402,12 @@
                                                     <td><img src="	http://demosid.opendesa.id/assets/images/pengguna/kuser.png"
                                                             class="img-fluid" alt=""></td>
                                                     <td><a style="color: #1fa3d4;"
-                                                            href="/keluarga/kartu_keluarga">0720319200800004</a></td>
+                                                          class="font-weight-light"  href="/keluarga/kartu_keluarga">0720319200800004</a></td>
                                                     <td>MISLAN</td>
                                                     <td><a style="color: #1fa3d4;"
-                                                            href="/penduduk/detail">5201143105121724</a></td>
+                                                            href="/penduduk/detail"  class="font-weight-light">5201143105121724</a></td>
                                                     <td>-</td>
-                                                    <td><a style="color: #1fa3d4;" href="/keluarga/anggota">4</a></td>
+                                                    <td><a style="color: #1fa3d4;" href="/keluarga/anggota" class="font-weight-light">4</a></td>
                                                     <td>LAKI-LAKI</td>
                                                     <td>-</td>
                                                     <td>KRAJAN</td>
@@ -486,16 +486,19 @@
                 </div>
                 <div class="modal-body">
                     <div class="card card-primary">
-                        <div class="card-header">
-                            <h6>Centang kotak berikut apabila NIK/No.KK ingin disensor</h6>
-                        </div>
                         <div class="card-body">
-                            <p style="font-weight:bold;"><input type="checkbox"> Sensor NIK/No.KK</p>
+                            <code>Centang kotak berikut apabila NIK/No.KK ingin disensor</code>
+                            <div class="custom-control custom-checkbox mt-3">
+                                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                <label class="custom-control-label text-dark font-weight-600" for="customCheck1">Sensor
+                                    NIK / No. KK</label>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer bg-whitesmoke br">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fas fa-close"></i>
+                        Tutup</button>
                     <a type="button" href="/keluarga/cetak" class="btn btn-info"><i class="fas fa-check"></i> Cetak</a>
                 </div>
             </div>
@@ -515,16 +518,19 @@
                 </div>
                 <div class="modal-body">
                     <div class="card card-primary">
-                        <div class="card-header">
-                            <h4>Centang kotak berikut apabila NIK/No.KK ingin disensor</h4>
-                        </div>
                         <div class="card-body">
-                            <p style="font-weight:bold;"><input type="checkbox"> Sensor NIK/No.KK</p>
+                            <code>Centang kotak berikut apabila NIK/No.KK ingin disensor</code>
+                            <div class="custom-control custom-checkbox mt-3">
+                                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                <label class="custom-control-label text-dark font-weight-600" for="customCheck1">Sensor
+                                    NIK / No. KK</label>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer bg-whitesmoke br">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fas fa-close"></i>
+                        Tutup</button>
                     <a type="button" onclick="alert('ini untuk download data keluarga')" class="btn btn-info"><i
                             class="fas fa-check"></i> Cetak</a>
                 </div>
@@ -692,7 +698,8 @@
                     </div>
                 </div>
                 <div class="modal-footer bg-whitesmoke br">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fas fa-close"></i>
+                        Tutup</button>
                     <a type="button" href="/penduduk/cetak" class="btn btn-info"><i class="fas fa-check"></i>
                         Simpan</a>
                 </div>
