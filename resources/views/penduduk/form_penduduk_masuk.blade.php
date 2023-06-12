@@ -681,7 +681,7 @@
                         <div class="form-row">
                             <div class="form-group col-md-4">
                                 <label for="" class="font-weight-bold">Status Perkawinan</label>
-                                <select name="" id="" class="form-control">
+                                <select name="" id="" class="form-select form-control-sm">
                                     <option value="">Pilih Status Perkawinan</option>
                                     <option value="1">BELUM KAWIN</option>
                                     <option value="2">KAWIN</option>

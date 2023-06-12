@@ -12,45 +12,52 @@
         th {
             color: #616468;
         }
+
         td {
             color: black;
         }
+
         .subtitle_head {
             padding: 10px 50px 10px 5px;
-    background-color:#018f9c;
-    margin: 15px 0px 10px 0px;
-    text-align: left;
-    color: white;
+            background-color: #018f9c;
+            margin: 15px 0px 10px 0px;
+            text-align: left;
+            color: white;
         }
-        img.penduduk {
-    width: auto;
-    max-height: 250px;
-    max-width: 200px;
-    border-radius: 15px;
-    display: block;
-    margin: 0 auto;
-    padding: 2px;
-    border: 2px solid #d2d6de;
-}
 
-img {
-    margin-bottom: 5px;
-}
-img {
-    vertical-align: middle;
-}
-img {
-    border: 0;
-}
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
+        img.penduduk {
+            width: auto;
+            max-height: 250px;
+            max-width: 200px;
+            border-radius: 15px;
+            display: block;
+            margin: 0 auto;
+            padding: 2px;
+            border: 2px solid #d2d6de;
+        }
+
+        img {
+            margin-bottom: 5px;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        img {
+            border: 0;
+        }
+
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        img {
+            overflow-clip-margin: content-box;
+            overflow: clip;
+        }
     </style>
     <link rel="stylesheet" href="{{ asset('/stisla/assets/modules/select2/dist/css/select2.min.css') }}">
 @endpush
@@ -71,8 +78,8 @@ img {
                             <a href="/penduduk/form/1" class="btn btn-sm btn-icon icon-left btn-info"><i
                                     class="fas fa-edit"></i>
                                 Ubah Biodata</a>
-                            <a href="/penduduk/cetak_biodata" class="btn btn-sm btn-warning"
-                                 aria-haspopup="true" aria-expanded="false">
+                            <a href="/penduduk/cetak_biodata" class="btn btn-sm btn-warning" aria-haspopup="true"
+                                aria-expanded="false">
                                 <i class="fas fa-print"></i> Cetak Biodata
                             </a>
                             <div class="dropdown d-inline">
@@ -98,14 +105,15 @@ img {
                                                 <div class="mb-3">
                                                     <div class="ticket-title">
                                                         <h5 class="text-dark">Biodata Penduduk (NIK : 3306132204980002)</h5>
-                                                      </div>
-                                                      <div class="ticket-desc">
-                                                        <div><small style=" color: #616468;">Terdaftar sebelum : &nbsp;<i class="fas fa-clock"></i> 28 Mei
-                                                            2023 22:45:28</small></div>
+                                                    </div>
+                                                    <div class="ticket-desc">
+                                                        <div><small style=" color: #616468;">Terdaftar sebelum : &nbsp;<i
+                                                                    class="fas fa-clock"></i> 28 Mei
+                                                                2023 22:45:28</small></div>
                                                         <div><small style=" color: #616468;">Terdaftar diubah : &nbsp;<i
-                                                            class="fas fa-clock"></i> 5 April 2023 22:45:28 &nbsp;<i
-                                                            class="fas fa-user"></i> Khafid</small></div>
-                                                      </div>
+                                                                    class="fas fa-clock"></i> 5 April 2023 22:45:28 &nbsp;<i
+                                                                    class="fas fa-user"></i> Khafid</small></div>
+                                                    </div>
                                                 </div>
                                                 <tr>
                                                     <td colspan="3">
@@ -426,7 +434,8 @@ img {
                                                                                 <td><a
                                                                                         href="http://demosid.opendesa.id/index.php/program_bantuan/data_peserta/10">JAMKESMAS</a>
                                                                                 </td>
-                                                                                <td style="text-align: justify;">Jamkesmas ( akronim dari Jaminan
+                                                                                <td style="text-align: justify;">Jamkesmas (
+                                                                                    akronim dari Jaminan
                                                                                     Kesehatan Masyarakat ) adalah sebuah
                                                                                     program jaminan kesehatan untuk warga
                                                                                     Indonesia yang memberikan perlindungan

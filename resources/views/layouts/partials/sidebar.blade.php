@@ -17,7 +17,7 @@
       <li class="dropdown">
         <a href="#" class="nav-link has-dropdown"><i class="fa fa-dashboard"></i><span>Info&nbsp;Desa</span></a>
         <ul class="dropdown-menu">
-          <li><a class="nav-link" href="index-0.html">Identitas&nbsp;Desa</a></li>
+          <li><a class="nav-link" href="/identitas-desa">Identitas&nbsp;Desa</a></li>
           <li><a class="nav-link" href="index.html"> Wilayah&nbsp;Administratif</a></li>
           <li><a class="nav-link" href="index.html">Pemerintahan&nbsp;Desa</a></li>
           <li><a class="nav-link" href="index.html">Status&nbsp;Desa</a></li>
@@ -40,8 +40,8 @@
       <li class="dropdown">
         <a href="#" class="nav-link has-dropdown"><i class="fas fa-line-chart"></i><span>Statistik</span></a>
         <ul class="dropdown-menu">
-          <li><a class="nav-link" href="index-0.html">Statistik&nbsp;Kependudukan</a></li>
-          <li><a class="nav-link" href="index.html">Laporan&nbsp;Bulanan</a></li>
+          <li><a class="nav-link" href="/statistik">Statistik&nbsp;Kependudukan</a></li>
+          <li><a class="nav-link" href="/statistik/laporan-bulanan">Laporan&nbsp;Bulanan</a></li>
           <li><a class="nav-link" href="index.html">Laporan&nbsp;Kelompok&nbsp;Rentan</a></li>
           <li><a class="nav-link" href="index.html">Laporan&nbsp;Penduduk</a></li>
         </ul>

@@ -36,7 +36,7 @@
 </script>
 <!-- /END GA --></head>
 
-<body>
+<body style=" zoom: 0.8;">
   <div id="app">
     <div class="main-wrapper main-wrapper-1">
       <div class="navbar-bg"></div>

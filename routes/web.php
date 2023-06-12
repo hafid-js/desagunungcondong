@@ -46,6 +46,18 @@ Route::get('/keluarga/cetak', [App\Http\Controllers\KeluargaController::class, '
 Route::get('/keluarga/kartu_keluarga', [App\Http\Controllers\KeluargaController::class, 'kartu_keluarga'])->name('kartuKeluarga');
 Route::get('/keluarga/calon_pemilih', [App\Http\Controllers\KeluargaController::class, 'calon_pemilih'])->name('calonPemilih');
 
+
+
+
+Route::get('/identitas-desa', [App\Http\Controllers\IdentitasDesaController::class, 'index'])->name('identitas-desa');
+Route::get('/identitas-desa/maps/kantor', [App\Http\Controllers\IdentitasDesaController::class, 'lokasi_kantor'])->name('lokasi-kantor');
+Route::get('/identitas-desa/ubah', [App\Http\Controllers\IdentitasDesaController::class, 'ubah'])->name('ubahIdentitasDesa');
+Route::get('/identitas-desa/wilayah-administratif', [App\Http\Controllers\IdentitasDesaController::class, 'wilayah_administratif'])->name('wilayahAdministratif');
+
+
+Route::get('/statistik', [App\Http\Controllers\StatistikController::class, 'index'])->name('index');
+Route::get('/statistik/laporan-bulanan', [App\Http\Controllers\StatistikController::class, 'laporanBulanan'])->name('index');
+
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/auth/redirect', 'App\Http\Controllers\Auth\LoginController@redirectToProvider');
 Route::get('/auth/callback', 'App\Http\Controllers\Auth\LoginController@handleProviderCallback');
